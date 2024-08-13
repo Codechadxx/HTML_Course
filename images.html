@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #414141;
+    }
+  </style>
+</head>
+<body>
+  <img src="dog.jpg" width="300px" alt="no image">
+
+  <picture>
+    <source media="(min-width: 650px)" srcset="dog.jpg" />
+    <source media="(min-width: 460px)" srcset="dog.jpg" />
+    <img src="dog.jpg" alt="">
+  </picture>
+</body>
+</html>
